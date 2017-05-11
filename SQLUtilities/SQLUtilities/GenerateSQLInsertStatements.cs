@@ -13,7 +13,7 @@ namespace SQLUtilities
         private void btnGenerate_Click(object sender, EventArgs e)
         {
             SqlService sqlService = new SqlService();
-            sqlService.GenerateScripts();
+            sqlService.GenerateScripts(txtTableName.Text, txtFirstColumn.Text, dtStartDate.Value, dtEndDate.Value);
         }
     }
 }
