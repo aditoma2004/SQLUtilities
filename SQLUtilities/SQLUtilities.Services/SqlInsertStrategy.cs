@@ -1,10 +1,10 @@
 ﻿using System;
 using System.IO;
 
-namespace SQLUtilities
+namespace SQLUtilities.Services
 {
-    public class SqlService
-    {    
+    public class SqlInsertStrategy : ISqlStrategy
+    {
         public void GenerateScripts(string tableName, string columnName, DateTime startDate, DateTime endDate)
         {
             string insertScript = "INSERT INTO " + tableName + "(" + columnName + ", OrderCounter, MaxOrderLimitPerDay) VALUES ";

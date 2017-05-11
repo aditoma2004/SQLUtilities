@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLUtilities", "SQLUtilities\SQLUtilities.csproj", "{A8D91A36-8AD6-42F8-A89D-92DFFFC26C32}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLUtilities.Tests", "SQLUtilities.Tests\SQLUtilities.Tests.csproj", "{B68F8BAB-78A8-440D-A489-622D1592A79C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLUtilities.Services", "SQLUtilities.Services\SQLUtilities.Services.csproj", "{C44DEC8F-14A4-4B4C-BBEC-1426878E789A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{A8D91A36-8AD6-42F8-A89D-92DFFFC26C32}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8D91A36-8AD6-42F8-A89D-92DFFFC26C32}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8D91A36-8AD6-42F8-A89D-92DFFFC26C32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B68F8BAB-78A8-440D-A489-622D1592A79C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B68F8BAB-78A8-440D-A489-622D1592A79C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B68F8BAB-78A8-440D-A489-622D1592A79C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B68F8BAB-78A8-440D-A489-622D1592A79C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C44DEC8F-14A4-4B4C-BBEC-1426878E789A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C44DEC8F-14A4-4B4C-BBEC-1426878E789A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C44DEC8F-14A4-4B4C-BBEC-1426878E789A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C44DEC8F-14A4-4B4C-BBEC-1426878E789A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
