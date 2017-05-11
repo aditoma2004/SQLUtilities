@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace SQLUtilities
@@ -15,6 +8,12 @@ namespace SQLUtilities
         public GenerateSQLInsertStatements()
         {
             InitializeComponent();
+        }
+
+        private void btnGenerate_Click(object sender, EventArgs e)
+        {
+            SqlService sqlService = new SqlService();
+            sqlService.GenerateScripts();
         }
     }
 }

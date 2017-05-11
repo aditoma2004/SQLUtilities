@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace SQLUtilities
 {
-    public class GenerateSqlScriptsService
+    public class SqlService
     {
+        public SqlService()
+        {
+
+        }
+
+        public void GenerateScripts()
+        {
+
+        }
     }
 }
