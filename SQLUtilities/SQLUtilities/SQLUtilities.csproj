@@ -52,6 +52,7 @@
     <Compile Include="GenerateSQLInsertStatements.Designer.cs">
       <DependentUpon>GenerateSQLInsertStatements.cs</DependentUpon>
     </Compile>
+    <Compile Include="GenerateSqlScriptsService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="GenerateSQLInsertStatements.resx">
