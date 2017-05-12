@@ -6,7 +6,7 @@ namespace SQLUtilities.Services
     {
         public void GenerateScripts(string tableName, string columnName, DateTime startDate, DateTime endDate)
         {
-            throw new NotImplementedException();
+            // to do: generate update scripts.
         }
     }
 }
