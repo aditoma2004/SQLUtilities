@@ -1,0 +1,31 @@
+﻿@model SqlUtilitiesWebApi.Models.SqlUtilitiesModel
+
+
+@{
+    ViewBag.Title = "SqlUtilities";
+}
+
+<div class="form-horizontal">
+
+    <h2 class="red">
+        Uk Bank Holidays
+    </h2>
+
+    @foreach (var holiday in Model.BankHolidayList)
+    {
+        <div class="form-group">
+            @Html.Label(holiday.BankHolidayDate.ToShortDateString(), new { @class = "visible-xs-12 col-xs-12 col-sm-6 col-md-4 col-lg-4" })
+
+            <div class="visible-xs-12 col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                @Html.Label(holiday.BankHolidayDescription)
+            </div>
+           
+        </div>
+    }
+
+
+    <div class="divider"></div>
+
+
+</div>
+

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SQLUtilities.Services.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -16,6 +17,8 @@ namespace SqlUtilitiesWebApi.Models
 
         public List<DayOfWeek> ExcludedDays { get; set; }
 
+        public IList<UkBankHolidayServiceModel> BankHolidayList { get; set; }
+
         #endregion
 
         #region Constructor
@@ -23,6 +26,7 @@ namespace SqlUtilitiesWebApi.Models
         public SqlUtilitiesModel()
         {
             ExcludedDays = new List<DayOfWeek>();
+            BankHolidayList = new List<UkBankHolidayServiceModel>();
         }
 
         #endregion
