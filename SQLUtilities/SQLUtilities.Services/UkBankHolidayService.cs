@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace SQLUtilities.Services
 {
-    public interface ISqlStrategy
+   public class UkBankHolidayService
     {
-        void GenerateScripts(string tableName, string columnName, DateTime startDate, DateTime endDate);
     }
 }
